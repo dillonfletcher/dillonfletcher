@@ -8,10 +8,10 @@ COPY ["dillonfletcher.csproj", "./"]
 RUN dotnet restore "dillonfletcher.csproj"
 COPY . .
 WORKDIR "/src/"
-RUN dotnet build "dillonfletcher.csproj" -c Release -o /app/build
+RUN dotnet build "DillonFletcher.csproj" -c Release -o /app/build
 
 FROM build AS publish
-RUN dotnet publish "dillonfletcher.csproj" -c Release -o /app/publish
+RUN dotnet publish "DillonFletcher.csproj" -c Release -o /app/publish
 
 FROM nginx AS final
 WORKDIR /usr/share/nginx/html
