@@ -4,8 +4,9 @@ EXPOSE 8080 2222
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["dillonfletcher.csproj", "./"]
-RUN dotnet restore "dillonfletcher.csproj"
+COPY ["DillonFletcher.csproj", "./"]
+RUN dotnet restore "DillonFletcher.csproj"
+
 COPY . .
 WORKDIR "/src/"
 RUN dotnet build "DillonFletcher.csproj" -c Release -o /app/build
