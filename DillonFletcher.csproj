@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GtfsRealtimeBindings" Version="0.0.4" />
+    <PackageReference Include="protobuf-net.AspNetCore" Version="3.0.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Protos" />
+  </ItemGroup>
+
+<!--  <ItemGroup>-->
+<!--    <Protobuf Include="Protos\gtfs-realtime.proto">-->
+<!--      <GrpcServices>Client</GrpcServices>-->
+<!--      <OutputDir>obj\Debug\net6.0\</OutputDir>-->
+<!--      <Access>Public</Access>-->
+<!--      <ProtoCompile>True</ProtoCompile>-->
+<!--      <ProtoRoot></ProtoRoot>-->
+<!--      <CompileOutputs>True</CompileOutputs>-->
+<!--      <Generator>MSBuild:Compile</Generator>-->
+<!--    </Protobuf>-->
+<!--  </ItemGroup>-->
+
+</Project>
