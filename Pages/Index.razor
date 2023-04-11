@@ -1,11 +1,36 @@
 ﻿@page "/"
 
-<PageTitle>dillonfletcher</PageTitle>
+<PageTitle>Interstellar Medium</PageTitle>
 
 <style type="text/css">
+    body {
+        background-image: url('/images/galaxy.jpg');
+        background-size: cover;
+        font-family:monospace;
+        color: white;
+    }
+
 	h1 {
 		font-family: monospace;
+		font-size: 32px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+	}
+
+    h2 {
+		font-family: monospace;
 		font-size: 24px;
+		font-style: normal;
+		font-variant: normal;
+		font-weight: 500;
+		line-height: 26.4px;
+	}
+
+    h3 {
+		font-family: monospace;
+		font-size: 14px;
 		font-style: normal;
 		font-variant: normal;
 		font-weight: 500;
@@ -15,35 +40,50 @@
 	a, a:visited {
 		color: unset;
 	}
+
+    .panel {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        padding: 10px;
+        margin: 10px;
+    }
 </style>
 
-<div style="font-family:monospace;">
+<div class="panel">
     <div style="text-align:center">
-        <h1>Dillon Fletcher</h1>
+        <h1>Interstellar Medium</h1>
+    </div>
+    <div style="text-align:center">
+        Software development and consulting by Dillon Fletcher.
+    </div>
+</div>
+
+<div class="panel">
+    <div  style="text-align:center">
+        <h2>Links</h2>
     </div>
     <ul style="text-align:center; list-style:none; padding-left:0;">
         <li>
-            <h2>
+            <h3>
                 <a href="https://github.com/DillonFletcher" target="_blank">GitHub</a>
-            </h2>
+            </h3>
         </li>
-
         <li>
-            <h2>
+            <h3>
                 <a href="https://www.instagram.com/dillonfletcher/" target="_blank">Instagram</a>
-            </h2>
+            </h3>
         </li>
 
         <li>
-            <h2>
+            <h3>
                 <a href="http://www.linkedin.com/in/dillonfletcher" target="_blank">LinkedIn</a>
-            </h2>
+            </h3>
         </li>
 
         <li>
-            <h2>
+            <h3>
                 <a href="https://twitter.com/dillonfletcher" target="_blank">Twitter</a>
-            </h2>
+            </h3>
         </li>
     </ul>
 </div>
