@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Dillon Fletcher. I'm a lifelong learner with a passion for solving complex problems.</p>
+<p align="left">My name is Dillon Fletcher and I'm a lifelong learner with a passion for solving complex problems.</p>
 
 ###
 
@@ -42,6 +42,24 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jetbrains/jetbrains-original.svg" height="40" alt="jetbrains logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="vscode logo"  />
+</div>
+
+###
+
+<h2 align="left">Links</h2>
+
+###
+
+<div align="left">
+  <a href="https://www.linkedin.com/in/dillonfletcher/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
+  </a>
+  <a href="https://discordapp.com/users/449773194732109834" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/discord/default.svg" width="52" height="40" alt="discord logo"  />
+  </a>
+  <a href="https://www.instagram.com/dillonfletcher/" target="_blank">
+    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
+  </a>
 </div>
 
 ###
