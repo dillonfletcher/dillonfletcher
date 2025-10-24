@@ -10,7 +10,7 @@
 
 ###
 
-<p align="left">💻 Senior Software Engineer @ AllianceBernstein<br><br>📚 Currently learning langchain<br><br>🐛 Creating bugs since 2008<br><br>🚴🏽‍♂️ Avid biker, hiker, and fitness enthusiast</p>
+<p align="left">💻 Senior Software Engineer @ MindClub America<br><br>📚 Currently learning langchain<br><br>🐛 Creating bugs since 2008<br><br>🚴🏽‍♂️ Avid biker, hiker, and fitness enthusiast</p>
 
 ###
 
